@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]">
+  <test parallel="none" name="Framework Scenarios(failed)">
+    <classes>
+      <class name="tests.LogiTechInterView">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="getResult"/>
+          <include name="apiTest_negative"/>
+          <include name="startMethod"/>
+        </methods>
+      </class> <!-- tests.LogiTechInterView -->
+    </classes>
+  </test> <!-- Framework Scenarios(failed) -->
+</suite> <!-- Failed suite [Suite] -->
